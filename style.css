@@ -1,0 +1,106 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+ .main {
+   width: 100%;
+   background:url(backdrop.png);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   
+ }
+.navbar{
+ min-width: ; width : 1200px;
+ mi height: 75px;
+  margin: auto;
+  }
+
+.icon{
+  width:200px;
+  float: left;
+  height: 70px;
+}
+.logo{
+  color:#ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu{
+   width: 400px;
+   float: left;
+   height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 26px;
+}
+
+ul li a{ 
+  text-decoration: none;
+  color:darkkhaki;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+ }
+
+ul li a:hover{
+  color:yellow;
+}
+ 
+body {
+  padding: 0 ;
+  margin: auto;
+background: linear-gradient(to right, purple ,magenta);
+}
+
+html{
+  font-size: 20px;
+  font-family: "Open sans", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding:20px 0;
+  color:orange;
+  text-shadow: 3px 3px 1px orangered;
+}
+img {
+  display: block;
+  margin:  0 0 0 0;
+
+  a {
+  color:red;
+}
+
+a:visited {
+  color:green;
+}
+
+a:hover {
+  color:#eee;
+}
+
+.logo2{
+  padding: 600px 800px
+}
+@media screen and (max-width: 600px)
+  {  h1{
+    font-size: 19;
+  }
+    
+  }
